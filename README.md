@@ -1,6 +1,9 @@
 # Criação de Formulário
 Repositório para criação de formulário | Repository for form creation
 
+*O código está bem todo comentado, na parte do JavaScript e CSS*
+*O HTML está bem estruturado para facil compreensão*
+
 *Possuo conhecimentos*
 - javaScript
 - React.js
