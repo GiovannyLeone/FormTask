@@ -6,6 +6,6 @@ Repositório para criação de formulário | Repository for form creation
 - React.js
 - Vue.js
 - PHP
-- Banco de dados | SQL e MySql
+- Banco de dados | SQL Server e MySql
 
 *Sempre dedicado em aprender mais!*
