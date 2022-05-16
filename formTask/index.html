@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/myStyles.css">
+    <title>Criação de formulário</title>
+</head>
+
+<body>
+    <section class="screen">
+        <div class="container">
+            <div class="bannerRegistro">
+                <h3>Registro de</h3>
+                <h3>Oportunidades</h3>
+            </div>
+
+            <div class="divForm">
+                <h2>Novo Registro</h2>
+                <div class="textPart">
+                    <h3>Informe abaixo os dados do seu projeto</h3>
+                    <p>Todos os campos com * são de preenchimento obrigatório.</p>
+                </div>
+
+                <div class="myForm">
+                    <!-- Form part -->
+                    <form action="#" method="POST">
+                        <div class="myGrid half-box">
+
+                            <label for="cep">Cep *<input type="number" name="cep" id="zipCode"></label>
+
+
+                            <label for="adress">Rua *<input type="text" name="adress" id="adress"></label>
+
+
+                            <label for="number">Número *<input type="number" name="number" id="number"></label>
+
+
+                            <label for="district">Bairro *<input type="text" name="district" id="district"></label>
+
+
+                            <label for="addressComplement">Complemento *<input type="text" name="addressComplement" id="addressComplement"></label>
+
+
+                            <label for="city">Município *<input type="text" name="city" id="city"></label>
+
+                        </div>
+
+                </div>
+                <div class="myBlock">
+                    <label for="uf">UF *</label>
+                    <select name="uf" id="uf">
+                        <option value="-">Selecione</option>
+                        <option value="SP">SP</option>
+                        <option value="MG">MG</option>
+                        <option value="RJ">RJ</option>
+                        <option value="ES">ES</option>
+                    </select>
+
+                </div>
+                </form>
+            </div>
+            <div class="myFlex">
+                <div class="divProducts">
+                    <label for="products">Produtos
+                        <select name="products" id="selectProducts">
+                            <option value="-">Selecione</option>
+                            <option value="-">Example</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="info-products">
+                    <label for="quantity">QTD
+                        <input type="number" placeholder="2" name="quantity" id="quantity">
+                    </label>
+                    <label for="value">VALOR
+                        <input type="number" placeholder="15,00" name="value" id="value">
+                    </label>
+                    <label for="total">TOTAL
+                        <input type="number" placeholder="30,00" name="total" id="total">
+                    </label>
+                </div>
+            </div>
+            <div class="moreLess myFlex">
+                <img src="assets/img/form/minus.png" alt="Less">
+                <img src="assets/img/form/plus.png" alt="More">
+            </div>
+
+
+            <div class="divAnexo">
+                <h3>ANEXO<span>MÁXIMO 6 MB POR ENVIO</span></h3>
+
+                <div class="myFlex">
+                    <label id="btnAnexo" for="file">Anexo</label>
+                    <label id="showFile" for="file">Clique para escolher o arquivo</label>
+                    <input type="file" name="file" id="file">
+                </div>
+            </div>
+            <div id="sizeFile">
+                <p></p>
+            </div>
+            <div class="moreLess myFlex">
+                <img src="assets/img/form/minus.png" alt="Less">
+                <img src="assets/img/form/plus.png" alt="More">
+            </div>
+            <div class="divBtnSend">
+                <button class="btnSend" onclick="enviarDados()">Enviar</button>
+            </div>
+        </div>
+        </div>
+
+        <footer class="divFooter">
+            <div class="container">
+                <h3>Redes sociais:</h3>
+                <div class="myIcons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/giovanny-leone-a6484b228/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <h3>Mapa do site:</h3>
+                <div class="textMapaSite myFlex">
+                    <a href="#">
+                        <p class="pMapaSite">Home</p>
+                    </a>
+                    <span>|</span>
+                    <a href="#">
+                        <p class="pMapaSite">Campanhas</p>
+                    </a>
+                    <span>|</span>
+                    <a href="#">
+                        <p class="pMapaSite">Premiação</p>
+                    </a>
+                    <span>|</span>
+                    <a href="#">
+                        <p class="pMapaSite">Benefícios</p>
+                    </a>
+                    <span>|</span>
+                    <a href="#">
+                        <p class="pMapaSite">Relatórios</p>
+                    </a>
+                    <span>|</span>
+                    <a href="#">
+                        <p class="pMapaSite">Conteúdos</p>
+                    </a>
+                    <span>|</span>
+                    <a href="#">
+                        <p class="pMapaSite">Registro de Opotunidade</p>
+                    </a>
+                    <span>|</span>
+                    <a href="#">
+                        <p class="pMapaSite">Perfil</p>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="https://kit.fontawesome.com/dbaf1144af.js" crossorigin="anonymous"></script>
+<script src="assets/js/myScripts.js"></script>
+
+</html>
