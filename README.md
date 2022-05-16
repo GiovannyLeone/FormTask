@@ -6,6 +6,7 @@ Repositório para criação de formulário | Repository for form creation
 
 *Possuo conhecimentos*
 - javaScript
+- Jquery
 - React.js
 - Vue.js
 - PHP
